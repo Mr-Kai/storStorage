@@ -12,7 +12,9 @@
      *  4： 请求储存值的时候，会有一个状态码：默认为status, 0：代表缓存已被清除，200：代表正常请求成功
      */
      
-两个对外方法：1：   setLocation(a,b,c,d)  
+两个对外方法：
+
+1：setLocation(a,b,c,d)  
     /**
      * 储存
      * @param {String} a  (储存的数据id)
@@ -20,6 +22,7 @@
      * @param {Function} c (储存完成的回调,储存其实是同步的，回调是为了语意清晰，回调两个参数，key和date)
      * @param {Number} d  (储存的时长:单位/分钟)
      */
+     
      
      
     2:  getLocation(a,b)
