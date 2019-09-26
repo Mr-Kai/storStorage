@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./store2.min.js"></script>
+    <script src="./storeLink.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        跳转到b页面
+    </h1>
+    
+</body>
+<script>
+    window.onload = function(){
+        var h1 = document.querySelector('h1');
+        h1.onclick = function (){
+            setLocation('pageaId',{a:1,b:2,c:3})
+            window.location.href = './b.html'
+        }
+
+
+    }
+</script>
+</html>
