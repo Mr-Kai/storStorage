@@ -15,6 +15,7 @@
 两个对外方法：
 
 1：setLocation(a,b,c,d)  
+
     /**
      * 储存
      * @param {String} a  (储存的数据id)
@@ -26,6 +27,7 @@
      
      
     2:  getLocation(a,b)
+    
     /**
      * 读取
      * @param {String} a （String）(需要读取的数据id)
