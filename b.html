@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./store2.min.js"></script>
+    <script src="./storeLink.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        我是b页面
+    </h1>
+    <h2>
+
+    </h2>
+    
+</body>
+<script>
+    window.onload = function(){
+        var data = getLocation('pageaId','succse');
+        document.querySelector('h2').innerText=JSON.stringify(data)
+        // console.warn('dom绑定错误，已为你取消绑定控件！')
+        // console.log(2);
+    }
+</script>
+
+</html>
